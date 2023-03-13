@@ -6,8 +6,8 @@ function validateForm() {
 	}
 return true;
 }
-function validateForm(){
-    let valid = true;
+// function validateForm(){
+//     let valid = true;
     
-    return valid;
-}
+//     return valid;
+// }
