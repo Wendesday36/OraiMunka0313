@@ -26,6 +26,12 @@ function jelszobaKotelezo() {
       "A jelszo nem lehet kisebb mint 8 karakter")
     return false;
   }
+  if (jlsz2.length < 8) {
+    alert(
+      "A jelszo nem lehet kisebb mint 8 karakter")
+    return false;
+  }
+  
   if (jlsz1 != jlsz2) {
     alert(
       "A jelszavak nem egyeznek!!")
