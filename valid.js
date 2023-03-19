@@ -1,15 +1,19 @@
 function validateForm() {
+  const jlsz1 = document.validTeszt.jlsz1.value;
+  const jlsz2 = document.validTeszt.jlsz2.value;
   let x = document.validTeszt.knev.value;
   if (x === "") {
     alert("A mező kitöltése kötelező!");
     return false;
   }
+ 
+
+  azonos();
+  jelszobaKotelezo();
   return true;
 }
 function azonos() {
   let valid = true;
-  const jlsz1 = document.validTeszt.jlsz1.value;
-  const jlsz2 = document.validTeszt.jlsz2.value;
 
   if (jlsz1 === jlsz2) {
     valid = true;
